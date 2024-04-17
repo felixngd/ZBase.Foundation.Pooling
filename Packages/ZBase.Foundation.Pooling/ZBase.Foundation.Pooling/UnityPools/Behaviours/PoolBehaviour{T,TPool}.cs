@@ -13,7 +13,7 @@ namespace ZBase.Foundation.Pooling.UnityPools
         [SerializeField]
         private TPool _pool;
 
-        protected TPool Pool
+        public TPool Pool
         {
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
             get => _pool;
