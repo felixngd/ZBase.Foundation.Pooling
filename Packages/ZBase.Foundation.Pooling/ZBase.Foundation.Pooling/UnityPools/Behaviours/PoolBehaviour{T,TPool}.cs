@@ -17,6 +17,7 @@ namespace ZBase.Foundation.Pooling.UnityPools
         {
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
             get => _pool;
+            set => _pool = value;
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
